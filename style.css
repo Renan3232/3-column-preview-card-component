@@ -12,160 +12,192 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
-
-/*stylig main container*/
+/*styling main container mobile work flow*/
 .main-container {
-    display:flex;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width: 327px;
+    height: 1326px;
+    border-radius: 8px 8px 0 0;
    
-}
-
-/*styling sedans container*/
-
-.sedans {
-    
-    width:50%;
-    background-color: hsl(31, 77%, 52%);
-    padding: 30px 25px  40px 45px;
-    border-radius: 10px 10px 0 0;
   
 
 }
-/* styling all the imgs*/
+/*stylying sedans*/
+.sedans {
+    height: 442px;
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 8px 8px 0 0;
+  
+
+
+}
+
 
 img {
-width: 25%;
+    
+    width: 63.91px;
+    height: 40px;
+    margin-top: 48px;
+    margin-left: 49px;
 }
-
-/* styling all the h1*/
 
 h1 {
-    color: hsl(0, 0%, 95%);
-    text-align: start;
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
+    width: 99px;
+    height: 48px;
+    margin-top: 35px;
+    margin-left: 49px;
+    font-size: 40px;
+    font-weight: 700px;
+    font-family: Big Shoulders Display;
+    color:#F2F2F2;
     text-transform: uppercase;
-    font-size: 30px;
 }
-/* styling all the p*/
+
 p {
-    width: 80%;
-    font-family:'Lexend Deca', sans-serif;
-    padding-right: 10px;
-    color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.5;
+    width: 231px;
+    height: 125px;
+   margin-top:25px;
+   margin-left: 48.5px;
     font-weight: 400;
-    font-size: 13px;
-   
-   
-  
+    font-family: lexend deca;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    line-height: 25px;
+    
 }
-/* styling all the buttons*/
+
 button {
-    border:2px solid hsl(0, 0%, 95%);;
-    border-radius: 15px;
-    width: 110px;
-    height:35px;
-    background-color:hsl(0, 0%, 95%);
-    color: hsl(31, 77%, 52%);
-    font-family: 'Lexend Deca', sans-serif;
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 48px;
+    margin-left: 49px;
+    border: solid 1px;
+    background: #F2F2F2;
+    color: #E28625;
+    font-family:lexend Deca;
     font-weight: 400;
+    font-size: 15px;
     
-}
-
-/*active states*/
-
-button:hover {
-    background-color:hsl(31, 77%, 52%);
-    color: hsla(0, 0%, 100%, 0.75);
-    cursor: pointer;
     
+
+
 }
 
-.SUV button:hover {
-   background-color:  hsl(184, 100%, 22%); 
-   color: hsla(0, 0%, 100%, 0.75);
-   cursor: pointer;
-}
-
-.luxury button:hover {
-    background-color:hsl(179, 100%, 13%) ;
-    color: hsla(0, 0%, 100%, 0.75);
-    cursor: pointer;
-}
-
-/*SUV backgroind and button color*/
-
+/*stylygin suv container */
 .SUV {
     background-color: hsl(184, 100%, 22%);
-    padding: 30px 25px  40px 45px;
-    width: 50%;
+    height: 442px;
 }
 
-.SUV button {
-    color:hsl(184, 100%, 22%); 
+.suv-image {
+    width: 63.99px;
+    height: 40px;
+    margin-left: 49px;
+    margin-top: 48px;
 }
 
-/*luxery background and button color*/
+.suv-header {
+    width: 67px;
+    height: 48px;
+    margin-top: 35px;
+    font-size: 40px;
+    
+}
+
+.suv-text {
+width: 231px;
+height: 125px;
+font-weight: 400;
+font-style: normal;
+}
+
+.suv-button {
+    width: 146px;
+    height: 48px;
+    color: #006971;
+    line-height: 25px;
+
+}
+
+/*stylying luxury*/
 .luxury {
-    background-color:hsl(179, 100%, 13%) ;
-    border-radius: 0 0 10px 10px;
-    padding: 30px 25px  40px 45px;
-    width: 50%;
+    background-color: hsl(179, 100%, 13%);
+    width:  327px;
+    height: 442px;
+    border-radius: 0 0 8px 8px;
+    
+}
+.luxury-header{
+    width: 95px;
+    height: 48px;
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47.88px;
+}
+.luxury-button {
+    color:  #004140;
 }
 
-.luxury button {
-    color:hsl(179, 100%, 13%) ;
-}
-
-/*stylig the desktop design*/
-@media only screen and (min-width: 900px){
-
-  
+@media screen and (min-width: 920px){
     .main-container {
         flex-direction: row;
-        width: 65%;
-    }
-/*styling sedans and luxury border radius*/
-
-    .sedans  {
-        border-radius: 10px 0 0 10px;
-        height: 350px;
-
-    }
-    .luxury {
-        border-radius: 0 10px 10px 0;
-        height: 350px;
-    }
-
-    .SUV {
-        height: 350px;
-    }
-    
-    /* styling the button margins */
-    button {
-       margin-top: 80px;
-
+        width: 921px;
+        height: 500px;
+        background-color: #F2F2F2;
+        flex-wrap:wrap;
         
-    } 
-
-  
-    /*styling the paragraph width*/
-
-    p {
-        width:85%;
     }
-
-    .SUV p {
-        width: 88%;
-    }
-
-    .luxury p {
-        width: 90%;
-    }
-
+.sedans {
     
+    height: 500px;
+    width: 307px;
+    border-radius: 8px 0 0 8px ;
+
+}
+
+p {
+    width: 212px;
+    height: 125px;
+    margin-left: 47.5px;
+    
+    button {
+        margin-top: 83px;
+    }
+}
+
+.SUV {
+    width: 307px;
+    height: 500px;
+    border-radius: 0;
+}
+
+
+.luxury {
+    width: 307px;
+    height: 500px;
+    border-radius: 0 8px 8px 0px;
+  
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #E28625;
+    color: #F2F2F2;
+}
+
+.suv-button:hover {
+    background-color:#006971;
+    color: #F2F2F2;
+}
+
+.luxury-button:hover {
+    background-color:#004140;
+    color: #F2F2F2;
+}
 }
