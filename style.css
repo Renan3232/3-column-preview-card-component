@@ -165,12 +165,16 @@ font-style: normal;
 p {
     width: 212px;
     height: 125px;
-    margin-left: 47.5px;
+    margin-left: 47.5px; 
+}
     
     button {
         margin-top: 83px;
+        
+
+       
     }
-}
+
 
 .SUV {
     width: 307px;
@@ -193,6 +197,7 @@ button:hover {
 }
 
 .suv-button:hover {
+
     background-color:#006971;
     color: #F2F2F2;
 }
